@@ -1,0 +1,461 @@
+[
+  {
+    "title": "Fresh Organic Bananas",
+    "description": "Bunch of ripe, organic bananas. Perfect for snacking or baking.",
+    "price": 2.99,
+    "discountPercentage": 5,
+    "rating": 4.5,
+    "stock": 100,
+    "brand": "Nature's Best",
+    "category": "Fruits",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1543218024-57a70143c369?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1543218024-57a70143c369?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Whole Grain Bread",
+    "description": "Freshly baked whole grain bread, rich in fiber and nutrients.",
+    "price": 3.49,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 50,
+    "brand": "Healthy Bakers",
+    "category": "Bakery",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1626423642268-24cc183cbacb?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1626423642268-24cc183cbacb?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Free-Range Eggs (Dozen)",
+    "description": "Farm-fresh, free-range eggs. Perfect for breakfast or baking.",
+    "price": 4.99,
+    "discountPercentage": 10,
+    "rating": 4.8,
+    "stock": 75,
+    "brand": "Happy Hens",
+    "category": "Dairy & Eggs",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1477506410535-f12fe9af97cc?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1477506410535-f12fe9af97cc?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1498654077810-12c21d4d6dc3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Organic Spinach",
+    "description": "Fresh, organic baby spinach leaves. Great for salads or cooking.",
+    "price": 3.99,
+    "discountPercentage": 0,
+    "rating": 4.3,
+    "stock": 60,
+    "brand": "Green Fields",
+    "category": "Vegetables",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1665889950448-7d17aa579414?q=80&w=2878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1665889950448-7d17aa579414?q=80&w=2878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1527020431145-77f7c047e7a1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fE9yZ2FuaWMlMjBTcGluYWNofGVufDB8fDB8fHww"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Greek Yogurt",
+    "description": "Creamy, protein-rich Greek yogurt. Plain flavor.",
+    "price": 5.49,
+    "discountPercentage": 15,
+    "rating": 4.6,
+    "stock": 80,
+    "brand": "Olympus",
+    "category": "Dairy & Eggs",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1571212515416-fef01fc43637?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8R3JlZWslMjBZb2d1cnR8ZW58MHx8MHx8fDA%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1571212515416-fef01fc43637?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8R3JlZWslMjBZb2d1cnR8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1572041002237-762bdc102cf6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8R3JlZWslMjBZb2d1cnR8ZW58MHx8MHx8fDA%3D"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Organic Apples",
+    "description": "Crisp and juicy organic apples. Perfect for snacking or baking.",
+    "price": 1.99,
+    "discountPercentage": 0,
+    "rating": 4.4,
+    "stock": 120,
+    "brand": "Orchard Fresh",
+    "category": "Fruits",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fE9yZ2FuaWMlMjBBcHBsZXN8ZW58MHx8MHx8fDA%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fE9yZ2FuaWMlMjBBcHBsZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1669557208945-640032289d5c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8T3JnYW5pYyUyMEFwcGxlc3xlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Whole Chicken",
+    "description": "Fresh, antibiotic-free whole chicken.",
+    "price": 8.99,
+    "discountPercentage": 5,
+    "rating": 4.7,
+    "stock": 40,
+    "brand": "Farm Fresh",
+    "category": "Meat",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1594221708779-94832f4320d1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2hvbGUlMjBDaGlja2VufGVufDB8fDB8fHww",
+    "images": [
+      "https://images.unsplash.com/photo-1594221708779-94832f4320d1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2hvbGUlMjBDaGlja2VufGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1664391682453-546426dba581?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8V2hvbGUlMjBDaGlja2VufGVufDB8fDB8fHww"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Organic Carrots",
+    "description": "Fresh, organic carrots. Great for snacking or cooking.",
+    "price": 2.49,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 90,
+    "brand": "Green Fields",
+    "category": "Vegetables",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fE9yZ2FuaWMlMjBDYXJyb3RzfGVufDB8fDB8fHww",
+    "images": [
+      "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fE9yZ2FuaWMlMjBDYXJyb3RzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1594400315019-a03cc9acb85a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fE9yZ2FuaWMlMjBDYXJyb3RzfGVufDB8fDB8fHww"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Almond Milk",
+    "description": "Creamy, dairy-free almond milk. Unsweetened.",
+    "price": 3.99,
+    "discountPercentage": 10,
+    "rating": 4.5,
+    "stock": 70,
+    "brand": "Nut Delights",
+    "category": "Beverages",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1626196340104-2d6769a08761?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QWxtb25kJTIwTWlsa3xlbnwwfHwwfHx8MA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1626196340104-2d6769a08761?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QWxtb25kJTIwTWlsa3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1601436423474-51738541c1b1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QWxtb25kJTIwTWlsa3xlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Organic Tomatoes",
+    "description": "Ripe, organic tomatoes. Perfect for salads or cooking.",
+    "price": 3.29,
+    "discountPercentage": 0,
+    "rating": 4.3,
+    "stock": 85,
+    "brand": "Green Fields",
+    "category": "Vegetables",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1475948164756-9a56289068fb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8T3JnYW5pYyUyMFRvbWF0b2VzfGVufDB8fDB8fHww",
+    "images": [
+      "https://images.unsplash.com/photo-1475948164756-9a56289068fb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8T3JnYW5pYyUyMFRvbWF0b2VzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1534940519139-f860fb3c6e38?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8T3JnYW5pYyUyMFRvbWF0b2VzfGVufDB8fDB8fHww"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Organic Avocados",
+    "description": "Ripe, creamy organic avocados. Perfect for guacamole or avocado toast.",
+    "price": 2.99,
+    "discountPercentage": 0,
+    "rating": 4.7,
+    "stock": 50,
+    "brand": "Nature's Best",
+    "category": "Fruits",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1704960961383-67dd63756199?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8T3JnYW5pYyUyMEF2b2NhZG9zfGVufDB8fDB8fHww",
+    "images": [
+      "https://images.unsplash.com/photo-1704960961383-67dd63756199?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8T3JnYW5pYyUyMEF2b2NhZG9zfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1671624749229-7d37826013b5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE9yZ2FuaWMlMjBBdm9jYWRvc3xlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Whole Wheat Pasta",
+    "description": "Healthy whole wheat pasta, rich in fiber.",
+    "price": 2.49,
+    "discountPercentage": 5,
+    "rating": 4.3,
+    "stock": 100,
+    "brand": "Pasta Paradise",
+    "category": "Grains",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1705947847434-00000d3f4fb5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8V2hvbGUlMjBXaGVhdCUyMFBhc3RhfGVufDB8fDB8fHww",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1705947847434-00000d3f4fb5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8V2hvbGUlMjBXaGVhdCUyMFBhc3RhfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1529042355636-0f06afe127a9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fFdob2xlJTIwV2hlYXQlMjBQYXN0YXxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Organic Honey",
+    "description": "Pure, raw organic honey. Locally sourced.",
+    "price": 7.99,
+    "discountPercentage": 0,
+    "rating": 4.8,
+    "stock": 30,
+    "brand": "Bee's Delight",
+    "category": "Condiments",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1481900369621-54a7facacc6c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fE9yZ2FuaWMlMjBIb25leXxlbnwwfHwwfHx8MA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1481900369621-54a7facacc6c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fE9yZ2FuaWMlMjBIb25leXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1573697610008-4c72b4e9508f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fE9yZ2FuaWMlMjBIb25leXxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Atlantic Salmon Fillet",
+    "description": "Fresh Atlantic salmon fillet, rich in omega-3.",
+    "price": 12.99,
+    "discountPercentage": 10,
+    "rating": 4.6,
+    "stock": 25,
+    "brand": "Ocean's Finest",
+    "category": "Seafood",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1675870793017-9864964f7784?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEF0bGFudGljJTIwU2FsbW9uJTIwRmlsbGV0fGVufDB8fDB8fHww",
+    "images": [
+      "https://images.unsplash.com/photo-1675870793017-9864964f7784?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEF0bGFudGljJTIwU2FsbW9uJTIwRmlsbGV0fGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1712334562767-5d366d0c40d9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fEF0bGFudGljJTIwU2FsbW9uJTIwRmlsbGV0fGVufDB8fDB8fHww"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Organic Baby Spinach",
+    "description": "Fresh, organic baby spinach. Perfect for salads or cooking.",
+    "price": 3.99,
+    "discountPercentage": 0,
+    "rating": 4.5,
+    "stock": 75,
+    "brand": "Green Fields",
+    "category": "Vegetables",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://img.freepik.com/free-photo/spinach-table_144627-20722.jpg?semt=ais_user",
+    "images": [
+      "https://img.freepik.com/free-photo/spinach-table_144627-20722.jpg?semt=ais_user",
+      "https://img.freepik.com/free-photo/fresh-baby-spinach-leaves-bowl-rustic-wooden-table-copy-space_127032-2240.jpg?semt=ais_user"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Extra Virgin Olive Oil",
+    "description": "Cold-pressed extra virgin olive oil from Italy.",
+    "price": 9.99,
+    "discountPercentage": 5,
+    "rating": 4.7,
+    "stock": 50,
+    "brand": "Mediterranean Gold",
+    "category": "Oils",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RXh0cmElMjBWaXJnaW4lMjBPbGl2ZSUyME9pbHxlbnwwfHwwfHx8MA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RXh0cmElMjBWaXJnaW4lMjBPbGl2ZSUyME9pbHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://img.freepik.com/free-photo/olive-oil-bottle-table-with-leaves-olives_23-2148285951.jpg?semt=ais_user"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Ground Coffee",
+    "description": "Medium roast ground coffee, 100% Arabica beans.",
+    "price": 8.99,
+    "discountPercentage": 0,
+    "rating": 4.4,
+    "stock": 60,
+    "brand": "Morning Brew",
+    "category": "Beverages",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1559525839-b184a4d698c7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8R3JvdW5kJTIwQ29mZmVlfGVufDB8fDB8fHww",
+    "images": [
+      "https://images.unsplash.com/photo-1559525839-b184a4d698c7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8R3JvdW5kJTIwQ29mZmVlfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEdyb3VuZCUyMENvZmZlZXxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Greek Yogurt",
+    "description": "Creamy, protein-rich Greek yogurt. Plain flavor.",
+    "price": 4.99,
+    "discountPercentage": 0,
+    "rating": 4.6,
+    "stock": 80,
+    "brand": "Dairy Delight",
+    "category": "Dairy",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://img.freepik.com/free-photo/yogurt-with-berries-oatmeal_23-2147753684.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+    "images": [
+      "https://img.freepik.com/free-photo/yogurt-with-berries-oatmeal_23-2147753684.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+      "https://img.freepik.com/free-photo/high-view-glass-filled-with-bio-food-lifestyle-concept_23-2148650250.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Organic Blueberries",
+    "description": "Fresh, organic blueberries. Rich in antioxidants.",
+    "price": 4.49,
+    "discountPercentage": 5,
+    "rating": 4.7,
+    "stock": 40,
+    "brand": "Berry Farm",
+    "category": "Fruits",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1628104017776-50e38eb63041?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8T3JnYW5pYyUyMEJsdWViZXJyaWVzfGVufDB8fDB8fHww",
+    "images": [
+      "https://images.unsplash.com/photo-1628104017776-50e38eb63041?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8T3JnYW5pYyUyMEJsdWViZXJyaWVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1624243478208-268e3b0af65b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8T3JnYW5pYyUyMEJsdWViZXJyaWVzfGVufDB8fDB8fHww"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Whole Grain Bread",
+    "description": "Freshly baked whole grain bread, rich in fiber.",
+    "price": 3.99,
+    "discountPercentage": 0,
+    "rating": 4.5,
+    "stock": 30,
+    "brand": "Healthy Bakers",
+    "category": "Bakery",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://img.freepik.com/free-photo/cut-slices-wholemeal-bread-wooden-board_23-2148361622.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+    "images": [
+      "https://img.freepik.com/free-photo/cut-slices-wholemeal-bread-wooden-board_23-2148361622.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+      "https://img.freepik.com/free-photo/high-angle-cut-bread-arrangement_23-2148544697.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Organic Tofu",
+    "description": "Firm organic tofu, high in protein and versatile for cooking.",
+    "price": 2.99,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 70,
+    "brand": "Soy Good",
+    "category": "Vegetarian",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://img.freepik.com/free-photo/tofu-made-from-soybeans-food-nutrition-concept_1150-26362.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+    "images": [
+      "https://img.freepik.com/free-photo/tofu-made-from-soybeans-food-nutrition-concept_1150-26362.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+      "https://img.freepik.com/premium-photo/cubes-raw-tofu-falling-white-background_608297-8657.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Organic Quinoa",
+    "description": "Organic white quinoa, high in protein and gluten-free.",
+    "price": 5.99,
+    "discountPercentage": 5,
+    "rating": 4.6,
+    "stock": 80,
+    "brand": "Grain Masters",
+    "category": "Grains",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8T3JnYW5pYyUyMFF1aW5vYXxlbnwwfHwwfHx8MA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8T3JnYW5pYyUyMFF1aW5vYXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1555243896-c709bfa0b564?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Organic Tomato Sauce",
+    "description": "Organic tomato sauce, no added sugars or preservatives.",
+    "price": 2.99,
+    "discountPercentage": 0,
+    "rating": 4.3,
+    "stock": 100,
+    "brand": "Tomato Heaven",
+    "category": "Canned Goods",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://img.freepik.com/free-photo/flavor-condiment-based-tomatoes_23-2151011182.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+    "images": [
+      "https://img.freepik.com/free-photo/flavor-condiment-based-tomatoes_23-2151011182.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+      "https://img.freepik.com/free-photo/supermarket-banner-concept-with-ingredients_23-2149421138.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Grass-Fed Ground Beef",
+    "description": "Lean grass-fed ground beef, 93% lean.",
+    "price": 7.99,
+    "discountPercentage": 0,
+    "rating": 4.7,
+    "stock": 40,
+    "brand": "Green Pastures",
+    "category": "Meat",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://img.freepik.com/free-photo/top-view-basturma-meat-plate-with-arugula-parmesan-cheese_141793-3932.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+    "images": [
+      "https://img.freepik.com/free-photo/top-view-basturma-meat-plate-with-arugula-parmesan-cheese_141793-3932.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+      "https://img.freepik.com/free-photo/top-view-meat-with-tomatoes_23-2148611040.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Organic Baby Carrots",
+    "description": "Sweet and crunchy organic baby carrots.",
+    "price": 2.49,
+    "discountPercentage": 0,
+    "rating": 4.5,
+    "stock": 75,
+    "brand": "Veggie Delight",
+    "category": "Vegetables",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://img.freepik.com/free-photo/flat-lay-arrangement-carrots-oranges_23-2148643518.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+    "images": [
+      "https://img.freepik.com/free-photo/flat-lay-arrangement-carrots-oranges_23-2148643518.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+      "https://img.freepik.com/premium-photo/sliced-carrots-table-greens-cumin-seeds-soup-preparation-soup-ingredient-veggie-lunch_537001-2154.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Whole Grain Crackers",
+    "description": "Crispy whole grain crackers, perfect for snacking.",
+    "price": 3.49,
+    "discountPercentage": 10,
+    "rating": 4.2,
+    "stock": 60,
+    "brand": "Crunch Masters",
+    "category": "Snacks",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://img.freepik.com/free-photo/top-view-crackers-with-paper-bag_23-2148562760.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+    "images": [
+      "https://img.freepik.com/free-photo/top-view-crackers-with-paper-bag_23-2148562760.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+      "https://img.freepik.com/free-photo/delicious-crackers-with-nut-star-anise-marble-background-high-quality-photo_114579-37760.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user"
+    ],
+    "deleted": false
+  },
+  {
+    "title": "Organic Peanut Butter",
+    "description": "Creamy organic peanut butter, no added sugars or oils.",
+    "price": 4.99,
+    "discountPercentage": 0,
+    "rating": 4.8,
+    "stock": 50,
+    "brand": "Nut Butter Co.",
+    "category": "Spreads",
+    "availabilityStatus": "In Stock",
+    "thumbnail": "https://img.freepik.com/free-photo/high-angle-delicious-peanut-butter-bread_23-2150408130.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+    "images": [
+      "https://img.freepik.com/free-photo/high-angle-delicious-peanut-butter-bread_23-2150408130.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user",
+      "https://img.freepik.com/free-photo/delicious-peanut-butter-table_144627-12427.jpg?ga=GA1.1.1365302864.1721152684&semt=ais_user"
+    ],
+    "deleted": false
+  }
+]

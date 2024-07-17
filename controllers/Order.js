@@ -1,9 +1,9 @@
 const { Order } = require("../models/Order");
 
 exports.fetchOrdersByUser = async (req, res) => {
-  const { userId } = req.params;
+  const { id } = req.user;
   try {
-    const orders = await Order.find({ user: userId });
+    const orders = await Order.find({ user: id });
 
     res.status(200).json(orders);
   } catch (err) {
@@ -54,7 +54,6 @@ exports.fetchAllOrders = async (req, res) => {
   }
 
   const totalDocs = await totalOrdersQuery.countDocuments().exec();
-  console.log({ totalDocs });
 
   if (req.query._page && req.query._limit) {
     const pageSize = req.query._limit;

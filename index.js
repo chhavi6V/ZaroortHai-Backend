@@ -9,6 +9,7 @@ const crypto = require("crypto");
 const cookieParser = require("cookie-parser");
 const LocalStrategy = require("passport-local").Strategy;
 const JwtStrategy = require("passport-jwt").Strategy;
+const GoogleStrategy = require("passport-google-oauth2").Strategy;
 const productRouter = require("./routes/Product");
 const categoryRouter = require("./routes/Category");
 const brandRouter = require("./routes/Brand");
@@ -65,6 +66,39 @@ app.use("/cart", isAuth(), cartRouter.router);
 app.use("/orders", isAuth(), orderRouter.router);
 
 // Passport Strategies
+
+passport.use(
+  new GoogleStrategy(
+    {
+      clientID: process.env.GOOGLE_CLIENT_ID,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+      callbackURL: "http://localhost:8080/auth/google/callback",
+    },
+    async function (accessToken, refreshToken, profile, cb) {
+      try {
+        let user = await User.findOne({ email: profile.emails[0].value });
+        if (!user) {
+          // Create a new user if not found
+          user = new User({
+            email: profile.emails[0].value,
+            name: profile.displayName,
+            googleId: profile.id,
+            authProvider: "google",
+          });
+          await user.save();
+        } else if (!user.googleId) {
+          // If user exists but doesn't have a googleId, update it
+          user.googleId = profile.id;
+          user.authProvider = "google";
+          await user.save();
+        }
+        return cb(null, sanitizeUser(user));
+      } catch (err) {
+        return cb(err, null);
+      }
+    }
+  )
+);
 passport.use(
   "local",
   new LocalStrategy({ usernameField: "email" }, async function (

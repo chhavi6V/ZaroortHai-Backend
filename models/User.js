@@ -3,18 +3,20 @@ const { Schema } = mongoose;
 
 const userSchema = new Schema({
   email: { type: String, required: true, unique: true },
-  password: { type: Buffer, required: true },
+  password: { type: Buffer },
   role: { type: String, required: true, default: "user" },
   addresses: { type: [Schema.Types.Mixed] },
-  // TODO:  We can make a separate Schema for this
   name: { type: String },
   salt: Buffer,
+  googleId: { type: String, unique: true, sparse: true },
+  authProvider: { type: String, default: "local" },
 });
 
 const virtual = userSchema.virtual("id");
 virtual.get(function () {
   return this._id;
 });
+
 userSchema.set("toJSON", {
   virtuals: true,
   versionKey: false,

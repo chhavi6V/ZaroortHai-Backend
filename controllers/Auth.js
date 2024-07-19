@@ -2,6 +2,7 @@ const { User } = require("../models/User");
 const crypto = require("crypto");
 const { sanitizeUser } = require("../services/common");
 const jwt = require("jsonwebtoken");
+const passport = require("passport");
 
 exports.createUser = async (req, res) => {
   try {
@@ -13,18 +14,18 @@ exports.createUser = async (req, res) => {
       32,
       "sha256",
       async function (err, hashedPassword) {
-        const user = new User({ ...req.body, password: hashedPassword, salt });
+        const user = new User({
+          ...req.body,
+          password: hashedPassword,
+          salt,
+          authProvider: "local",
+        });
         const doc = await user.save();
-
         req.login(sanitizeUser(doc), (err) => {
-          // this also calls serializer and adds to session
           if (err) {
             res.status(400).json(err);
           } else {
-            const token = jwt.sign(
-              sanitizeUser(doc),
-              process.env.SECRET_KEY
-            );
+            const token = jwt.sign(sanitizeUser(doc), process.env.SECRET_KEY);
             res
               .cookie("jwt", token, {
                 expires: new Date(Date.now() + 3600000),
@@ -58,4 +59,19 @@ exports.checkAuth = async (req, res) => {
   } else {
     res.sendStatus(401);
   }
+};
+
+exports.googleAuth = passport.authenticate("google", {
+  scope: ["profile", "email"],
+});
+
+exports.googleAuthCallback = async (req, res) => {
+  const user = req.user;
+  const token = jwt.sign(sanitizeUser(user), process.env.SECRET_KEY);
+  res
+    .cookie("jwt", token, {
+      expires: new Date(Date.now() + 3600000),
+      //httpOnly: true,
+    })
+    .redirect("http://localhost:5173"); // Redirect to your frontend URL
 };

@@ -24,7 +24,7 @@ Welcome to the powerhouse behind Zaroorathai - the backend that keeps our e-comm
 
 1. **Clone the repo**
    ```
-   git clone https://github.com/your-username/zaroorathai-backend.git
+   git clone https://github.com/chhavi6V/ZaroortHai-Backend.git
    ```
 2. **Install dependencies**
    ```
